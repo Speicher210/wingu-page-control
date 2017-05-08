@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD342BA31EC050FC00115393 /* WinguPageControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD342B991EC050FC00115393 /* WinguPageControl.framework */; };
+		DD342BA81EC050FC00115393 /* WinguPageControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD342BA71EC050FC00115393 /* WinguPageControlTests.swift */; };
+		DD342BAA1EC050FC00115393 /* WinguPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = DD342B9C1EC050FC00115393 /* WinguPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD342BB41EC0515600115393 /* WinguPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD342BB31EC0515600115393 /* WinguPageControl.swift */; };
+		DD342BB61EC0517000115393 /* SingleDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD342BB51EC0517000115393 /* SingleDot.swift */; };
+		DD342BB81EC0518600115393 /* NibLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD342BB71EC0518600115393 /* NibLoadingView.swift */; };
+		DD342BBB1EC051B800115393 /* WinguPageControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD342BB91EC051B800115393 /* WinguPageControl.xib */; };
+		DD342BBC1EC051B800115393 /* WinguSingleDotPageControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD342BBA1EC051B800115393 /* WinguSingleDotPageControl.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD342BA41EC050FC00115393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD342B901EC050FC00115393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD342B981EC050FC00115393;
+			remoteInfo = WinguPageControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD342B991EC050FC00115393 /* WinguPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WinguPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD342B9C1EC050FC00115393 /* WinguPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WinguPageControl.h; sourceTree = "<group>"; };
+		DD342B9D1EC050FC00115393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD342BA21EC050FC00115393 /* WinguPageControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinguPageControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD342BA71EC050FC00115393 /* WinguPageControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinguPageControlTests.swift; sourceTree = "<group>"; };
+		DD342BA91EC050FC00115393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD342BB31EC0515600115393 /* WinguPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinguPageControl.swift; sourceTree = "<group>"; };
+		DD342BB51EC0517000115393 /* SingleDot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleDot.swift; sourceTree = "<group>"; };
+		DD342BB71EC0518600115393 /* NibLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadingView.swift; sourceTree = "<group>"; };
+		DD342BB91EC051B800115393 /* WinguPageControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinguPageControl.xib; sourceTree = "<group>"; };
+		DD342BBA1EC051B800115393 /* WinguSingleDotPageControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinguSingleDotPageControl.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD342B951EC050FC00115393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD342B9F1EC050FC00115393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD342BA31EC050FC00115393 /* WinguPageControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD342B8F1EC050FC00115393 = {
+			isa = PBXGroup;
+			children = (
+				DD342B9B1EC050FC00115393 /* WinguPageControl */,
+				DD342BA61EC050FC00115393 /* WinguPageControlTests */,
+				DD342B9A1EC050FC00115393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD342B9A1EC050FC00115393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD342B991EC050FC00115393 /* WinguPageControl.framework */,
+				DD342BA21EC050FC00115393 /* WinguPageControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD342B9B1EC050FC00115393 /* WinguPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				DD342B9C1EC050FC00115393 /* WinguPageControl.h */,
+				DD342B9D1EC050FC00115393 /* Info.plist */,
+				DD342BB31EC0515600115393 /* WinguPageControl.swift */,
+				DD342BB71EC0518600115393 /* NibLoadingView.swift */,
+				DD342BB51EC0517000115393 /* SingleDot.swift */,
+				DD342BB91EC051B800115393 /* WinguPageControl.xib */,
+				DD342BBA1EC051B800115393 /* WinguSingleDotPageControl.xib */,
+			);
+			path = WinguPageControl;
+			sourceTree = "<group>";
+		};
+		DD342BA61EC050FC00115393 /* WinguPageControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD342BA71EC050FC00115393 /* WinguPageControlTests.swift */,
+				DD342BA91EC050FC00115393 /* Info.plist */,
+			);
+			path = WinguPageControlTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DD342B961EC050FC00115393 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD342BAA1EC050FC00115393 /* WinguPageControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DD342B981EC050FC00115393 /* WinguPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD342BAD1EC050FC00115393 /* Build configuration list for PBXNativeTarget "WinguPageControl" */;
+			buildPhases = (
+				DD342B941EC050FC00115393 /* Sources */,
+				DD342B951EC050FC00115393 /* Frameworks */,
+				DD342B961EC050FC00115393 /* Headers */,
+				DD342B971EC050FC00115393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinguPageControl;
+			productName = WinguPageControl;
+			productReference = DD342B991EC050FC00115393 /* WinguPageControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD342BA11EC050FC00115393 /* WinguPageControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD342BB01EC050FC00115393 /* Build configuration list for PBXNativeTarget "WinguPageControlTests" */;
+			buildPhases = (
+				DD342B9E1EC050FC00115393 /* Sources */,
+				DD342B9F1EC050FC00115393 /* Frameworks */,
+				DD342BA01EC050FC00115393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD342BA51EC050FC00115393 /* PBXTargetDependency */,
+			);
+			name = WinguPageControlTests;
+			productName = WinguPageControlTests;
+			productReference = DD342BA21EC050FC00115393 /* WinguPageControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD342B901EC050FC00115393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "wingu AG";
+				TargetAttributes = {
+					DD342B981EC050FC00115393 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9232HDTN9M;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					DD342BA11EC050FC00115393 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9232HDTN9M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DD342B931EC050FC00115393 /* Build configuration list for PBXProject "WinguPageControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD342B8F1EC050FC00115393;
+			productRefGroup = DD342B9A1EC050FC00115393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD342B981EC050FC00115393 /* WinguPageControl */,
+				DD342BA11EC050FC00115393 /* WinguPageControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD342B971EC050FC00115393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD342BBB1EC051B800115393 /* WinguPageControl.xib in Resources */,
+				DD342BBC1EC051B800115393 /* WinguSingleDotPageControl.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD342BA01EC050FC00115393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD342B941EC050FC00115393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD342BB81EC0518600115393 /* NibLoadingView.swift in Sources */,
+				DD342BB41EC0515600115393 /* WinguPageControl.swift in Sources */,
+				DD342BB61EC0517000115393 /* SingleDot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD342B9E1EC050FC00115393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD342BA81EC050FC00115393 /* WinguPageControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD342BA51EC050FC00115393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD342B981EC050FC00115393 /* WinguPageControl */;
+			targetProxy = DD342BA41EC050FC00115393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD342BAB1EC050FC00115393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD342BAC1EC050FC00115393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD342BAE1EC050FC00115393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9232HDTN9M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WinguPageControl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.wingu.WinguPageControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DD342BAF1EC050FC00115393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9232HDTN9M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WinguPageControl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.wingu.WinguPageControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DD342BB11EC050FC00115393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9232HDTN9M;
+				INFOPLIST_FILE = WinguPageControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.wingu.WinguPageControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DD342BB21EC050FC00115393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9232HDTN9M;
+				INFOPLIST_FILE = WinguPageControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.wingu.WinguPageControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD342B931EC050FC00115393 /* Build configuration list for PBXProject "WinguPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD342BAB1EC050FC00115393 /* Debug */,
+				DD342BAC1EC050FC00115393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD342BAD1EC050FC00115393 /* Build configuration list for PBXNativeTarget "WinguPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD342BAE1EC050FC00115393 /* Debug */,
+				DD342BAF1EC050FC00115393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD342BB01EC050FC00115393 /* Build configuration list for PBXNativeTarget "WinguPageControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD342BB11EC050FC00115393 /* Debug */,
+				DD342BB21EC050FC00115393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD342B901EC050FC00115393 /* Project object */;
+}
