@@ -17,7 +17,11 @@ public class WinguPageControl: NibLoadingView {
     
     public var numberOfElements : NSInteger = 1 {
         didSet {
-            guard numberOfElements > 1  else { return }
+            guard numberOfElements > 1  else {
+                self.isHidden = true
+                return
+            }
+            self.isHidden = false
             let elementWidth = self.frame.size.height/2
             self.widthConstraint.constant = (elementWidth*CGFloat(numberOfElements))+(self.stackView.spacing*(CGFloat(numberOfElements)-1))
             for _ in 0...(numberOfElements-1) {
@@ -27,6 +31,7 @@ public class WinguPageControl: NibLoadingView {
             }
             (self.stackView.arrangedSubviews[0] as! WinguSingleDotPageControl).preloadedSelection = true
             self.delegate?.fullyDisplayPageAtIndex(0)
+            self.layoutSubviews()
         }
     }
     
