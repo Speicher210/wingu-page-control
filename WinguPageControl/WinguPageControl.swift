@@ -24,6 +24,7 @@ public class WinguPageControl: NibLoadingView {
             self.isHidden = false
             let elementWidth = self.frame.size.height/2
             self.widthConstraint.constant = (elementWidth*CGFloat(numberOfElements))+(self.stackView.spacing*(CGFloat(numberOfElements)-1))
+            for subview in self.stackView.arrangedSubviews { subview.removeFromSuperview() }
             for _ in 0...(numberOfElements-1) {
                 let dot : WinguSingleDotPageControl = WinguSingleDotPageControl()
                 dot.singleColor = color ?? UIColor.white
